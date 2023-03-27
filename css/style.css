@@ -238,6 +238,216 @@ h1 {
 }
 
 
+.svg {
+    width: 100px;
+}
+
+
+
+
+.company {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-overflow > img {
+    width: 220px;
+    border-bottom: solid black 1px;
+
+   
+}
+
+
+.container-company {
+    width: 250px;
+    height: 250px; 
+    /* background-color: darkgoldenrod; */
+    /* border: solid 3px black; */
+
+    text-align: center; }
+
+
+.container-company > img {
+    position: relative;
+    top: 100px;
+}
+
+.container-overflow > p {
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+.container-overflow {
+width: 450px;
+height: 500px;
+/* border: solid 3px red; */
+background-color: #f5f5f5;
+
+padding: 30px;
+
+/* background-color: aquamarine; */
+
+}
+
+
+
+
+
+
+
+.color {
+    background-color: #a2d39b ;
+    border: 10px solid #d1e9cd;
+}
+
+.color2 {
+    background-color: #61082b;
+}
+
+
+.color3 {
+    background-color:#d5001f ;
+}
+
+
+.color4 {
+    background-color: #b4d0e7 ;
+}
+
+
+
+.relative {
+    position: relative;
+
+
+}
+
+.position {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    background-color: #0093ce ;
+}
+
+.position2 {
+    position: absolute;
+    left: 250px;
+    bottom: 0px;
+    background-color: #ff1c1c;
+}
+
+.position3 {
+    position: absolute;
+    bottom: 0px;
+    right: 250px;
+    background-color: #0d2481;
+}
+
+.position4 {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    background-color:#ffd830 ;
+}
+
+
+
+
+
+
+
+/* section prova gratuita */
+.gratis {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #b4d0e7;
+
+    height: 250px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+/*  faq */
+
+.faq {
+    padding: 30px;
+    margin-top: 50px;
+}
+
+
+.flex-faq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    border-top: 1px black solid;
+    border-bottom: 1px black solid ;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.fa-chevron-down {
+    font-size: 20px;
+}
+
+
+
+/* stile footer */
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+
+    line-height: 30px;
+    color: white;
+    background-color: black;
+}
+
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color: black;
+}
+
+.under{
+
+    margin-top: 85px;
+    color: white;
+    
+}
+
+.under > span {
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*  debug */
 
@@ -270,9 +480,107 @@ h1 {
 }
 
 
-.debug {
+/* .debug {
     /* height: 400px; */
     /* background-color: brown; */
 
-    /* margin-top: 50px; */
+    /* margin-top: 50px;
+} */
+
+
+/* .company {
+    display: flex;
+    justify-content: space-between; */
+    
+    
+    
+    /* background-color: coral; */
+    /* height: 400px; }*/ 
+
+
+/* .container-company {
+    width: 250px;
+    height: 250px; 
+    /* background-color: darkgoldenrod; */
+    /* border: solid 3px black; */
+
+    /* text-align: center; } */ 
+
+
+/* .container-overflow > img {
+    width: 220px;
+    border-bottom: solid black 1px;
+
+   
+} */
+
+    /* .container-company > img {
+        position: relative;
+        top: 100px;
+    }
+
+    .container-overflow > p {
+        margin-top: 60px;
+        margin-bottom: 35px;
+    }
+
+.container-overflow {
+    width: 450px;
+    height: 500px;
+    /* border: solid 3px red; */
+    /* background-color: #f5f5f5;
+
+    padding: 30px; */ 
+
+    /* background-color: aquamarine; } */
+
+
+
+
+/* .position {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    background-color: #0093ce ;
+} */
+/* 
+.position2 {
+    position: absolute;
+    left: 250px;
+    bottom: 0px;
+    background-color: #ff1c1c;
 }
+
+.position3 {
+    position: absolute;
+    bottom: 0px;
+    right: 250px;
+    background-color: #0d2481;
+}
+
+.position4 {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    background-color:#ffd830 ;
+} */
+
+
+/* .color {
+    background-color: #a2d39b ;
+    border: 10px solid #d1e9cd;
+}
+
+.color2 {
+    background-color: #61082b;
+}
+
+
+.color3 {
+    background-color:#d5001f ;
+}
+
+
+.color4 {
+    background-color: #b4d0e7 ;
+} */
