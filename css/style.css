@@ -92,7 +92,7 @@ h1 {
     padding: 50px;
     margin-top: 40px;
 
-    width: 60%;
+    width: 65%;
     margin: 0  auto;
 }
 
@@ -150,7 +150,7 @@ h1 {
 }
 
 .content-office {
-    padding: 20px;
+    padding: 30px;
 }
 
 .table-office {
@@ -164,6 +164,77 @@ h1 {
     border-bottom: 1px solid black ;
     padding: 10px;
     text-align: center;
+}
+
+.content-office > h4 {
+    margin-bottom: 35px;
+    
+}
+
+
+
+/* section partner (3) */
+
+.flex-partner {
+    display: flex;
+
+    padding: 10px;
+    margin-top: 75px;
+}
+
+#partner {
+    width: 500px;
+}
+
+.margin-partner {
+    margin-left: 35px;
+    padding: 10px;
+}
+
+.margin-partner > p {
+    margin: 20px auto;
+}
+
+
+/* quarta section business */
+.container-business {
+    margin-top: 50px;
+}
+
+.container-business > h2 {
+    margin-bottom: 30px;
+}
+
+.flex-business {
+    display: flex;
+    justify-content: space-between;
+
+
+    margin-bottom: 30px;
+   
+
+    /* width: calc(100% / 3); */
+
+    /* gap: 15px; */
+}
+
+
+.business {
+    width: 270px;
+}
+
+.business-margin > p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+/*  section client*/
+
+.client > h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 
@@ -196,4 +267,12 @@ h1 {
 .table {
     /* background-color: violet; */
     border: solid 1px black;
+}
+
+
+.debug {
+    /* height: 400px; */
+    /* background-color: brown; */
+
+    /* margin-top: 50px; */
 }
