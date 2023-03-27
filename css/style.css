@@ -31,8 +31,17 @@
 /* stile hero */
 
 #hero {
-   width: 80%;
-   margin: 0 auto;
+   /* width: 80%;
+   margin: 0 auto; */
+   background-color: #b4d0e7;
+   min-height: 600px;
+}
+
+#color-hero {
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #b4d0e7;
 }
 
 #flex-hero {
@@ -40,13 +49,14 @@
 }
 
 .hero-img {
-    width: 700px;
+    width: 750px;
 }
 
 h1 {
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 35px;
     font-size: 60px;
+    
 }
 
 .size {
@@ -66,12 +76,12 @@ h1 {
 
 /*  debug */
 
-header {
+/* header {
     height: 100px;
-    background-color: red;
-}
+    ;
+} */
 
-#hero {
-    background-color: blueviolet;
+/* #hero {
+    background-color: #b4d0e7;
     height: 600px;
-}
+} */
