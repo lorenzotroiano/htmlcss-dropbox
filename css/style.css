@@ -68,6 +68,43 @@ h1 {
     margin-bottom: 25px;
 }
 
+.fa-arrow-down {
+    margin-top: 30px;
+    display: block;
+    font-size: 35px;
+}
+
+
+
+
+/*  stile contenuto principale */
+
+.flex-table {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 20px;
+}
+
+
+.table {
+    border: 2px solid black;
+    padding: 10px 40px;
+
+    margin-top: 20px;
+}
+
+.table > span {
+    display: block;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.border-top {
+    border-bottom: solid 2px black;
+}
 
 
 
@@ -85,3 +122,17 @@ h1 {
     background-color: #b4d0e7;
     height: 600px;
 } */
+
+main {
+    height: 800px;
+    background-color: red;
+
+    width: 60%;
+    margin: 0  auto;
+    padding: 30px;
+}
+
+
+section {
+    background-color: greenyellow;
+}
