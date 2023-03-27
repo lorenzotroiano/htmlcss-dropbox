@@ -7,6 +7,15 @@
 
 
 
+
+
+button {
+    border: 0 solid;
+    background-color: #0061ff;
+    color: white;
+    padding: 10px 20px;
+}
+
 /* regole header */
 
 .flex-header {
@@ -79,34 +88,53 @@ h1 {
 
 /*  stile contenuto principale */
 
+.content-main {
+    padding: 50px;
+    margin-top: 40px;
+}
+
+
+.input-bottom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    
+}
+
 .flex-table {
     display: flex;
     justify-content: space-between;
 
-    gap: 20px;
+
+    align-items: stretch;
+    gap: 25px;
 }
 
 
-.table {
-    border: 2px solid black;
-    padding: 10px 40px;
 
-    margin-top: 20px;
-}
-
-.table > span {
+.content-table > span {
     display: block;
-
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+.title-table {
+    border-bottom: 1px solid black;
+   
 
-.border-top {
-    border-bottom: solid 2px black;
+    text-align: center;
+    padding: 10px;
+
 }
 
+.content-table {
+    padding: 20px;
+    /* border: solid 1px black; */
+}
 
+.fa-check {
+    color: #3b91ff;
+}
 
 
 
@@ -123,16 +151,23 @@ h1 {
     height: 600px;
 } */
 
-main {
-    height: 800px;
-    background-color: red;
+ main {
+    /* height: 800px;
+    background-color: red; */
 
-    width: 60%;
+     width: 60%;
     margin: 0  auto;
-    padding: 30px;
 }
 
 
-section {
+/* section {
     background-color: greenyellow;
+    height: 400px;
+
+}  */
+
+
+.table {
+    /* background-color: violet; */
+    border: solid 1px black;
 }
