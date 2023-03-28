@@ -113,12 +113,29 @@ h1 {
     gap: 25px;
 }
 
+.flex-icon {
+    display: flex;
+    
+}
 
+.flex-icon > i {
+    margin-right: 7px;
+}
+
+.content-table > button {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.content-table > h4 {
+    margin-top: 15px;
+}
 
 .content-table > span {
-    display: block;
+    /* display: block; */
     margin-top: 20px;
     margin-bottom: 20px;
+    /* line-height: 30px; */
 }
 
 .title-table {
@@ -205,6 +222,8 @@ h1 {
     margin-bottom: 30px;
 }
 
+
+
 .flex-business {
     display: flex;
     justify-content: space-between;
@@ -220,12 +239,18 @@ h1 {
 
 
 .business {
-    width: 270px;
+    width: 250px;
+}
+
+.business-margin {
+    padding: 5px;
 }
 
 .business-margin > p {
     margin-top: 20px;
     margin-bottom: 50px;
+
+    /* padding: 10px; */
 }
 
 
