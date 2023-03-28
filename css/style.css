@@ -11,9 +11,20 @@
 
 button {
     border: 0 solid;
+    /* background-color: #0061ff; */
+    /* color: white; */
+    padding: 10px 20px;
+}
+
+button.back-blue {
     background-color: #0061ff;
     color: white;
-    padding: 10px 20px;
+}
+
+button.back-white {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
 }
 
 /* regole header */
@@ -59,8 +70,8 @@ button {
 button > a {
     text-decoration: none;
     color: white;
-
-    transition: all 1s ease;
+/* 
+    transition: all 1s ease; */
     padding: 15px;
 }
 
@@ -218,10 +229,12 @@ h1 {
 
 #office > button {
     transition: all 1s ease;
+    
 }
 
 #office > button:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 #office  {
@@ -263,6 +276,10 @@ h1 {
 
     padding: 10px;
     margin-top: 75px;
+}
+
+.white {
+    color: black;
 }
 
 #partner {
@@ -471,6 +488,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
 
+    height: 100px;
 
 
     margin-top: 30px;
@@ -481,12 +499,61 @@ h1 {
 
     padding-top: 20px;
     padding-bottom: 20px;
-}
 
+    position: relative;
+
+    transition: all 1s ease;
+}
+#transition-faq > h4 {
+    padding: 70px;
+}
 
 .fa-chevron-down {
     font-size: 20px;
+
+
+    /* transition: all 1s ease; */
 }
+
+
+
+
+
+
+/* transition-faq */
+
+#faq-list {
+    display: none;
+
+
+    position: absolute;
+    bottom: 15px;
+    left: 70px;
+    
+
+}
+
+
+.flex-faq:hover  {
+
+   height: 300px;
+
+   
+}
+
+
+
+#transition-faq:hover #faq-list {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
 
 
 
