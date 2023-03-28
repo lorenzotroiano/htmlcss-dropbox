@@ -504,9 +504,9 @@ h1 {
 
     transition: all 1s ease;
 }
-#transition-faq > h4 {
-    padding: 70px;
-}
+/* #transition-faq > h4 {
+    /* padding: 70px;} */
+
 
 .fa-chevron-down {
     font-size: 20px;
@@ -528,7 +528,7 @@ h1 {
 
     position: absolute;
     bottom: 15px;
-    left: 70px;
+    left: 0px;
     
 
 }
@@ -538,15 +538,19 @@ h1 {
 
    height: 300px;
 
+  
    
 }
 
 
 
-#transition-faq:hover #faq-list {
+/* #transition-faq:hover #faq-list {
+    display: inline-block;
+} */
+
+.flex-faq:hover #faq-list {
     display: inline-block;
 }
-
 
 
 
