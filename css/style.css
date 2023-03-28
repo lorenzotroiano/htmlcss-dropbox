@@ -329,6 +329,8 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    filter: invert(100%);
 }
 
 
@@ -336,6 +338,7 @@ h1 {
     height: 198.16px;
     width: calc(100%/2);
 
+    
     position: relative;
     /* border: 2px palevioletred solid; */
 }
