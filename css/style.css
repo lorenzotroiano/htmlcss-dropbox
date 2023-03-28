@@ -502,7 +502,7 @@ h1 {
 
     position: relative;
 
-    transition: all 1s ease;
+    transition: all 1s ease-in;
 }
 /* #transition-faq > h4 {
     /* padding: 70px;} */
