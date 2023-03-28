@@ -29,7 +29,7 @@ button {
 
 .flex-link {
     display: flex;
-    gap: 30px;
+    /* gap: 30px; */
     align-items: center;
 
 
@@ -37,6 +37,47 @@ button {
 
 }
 
+.flex-link > a {
+    text-decoration: none;
+    color: #808080;
+    
+    /* movimento interazione */
+    transition: all 1s ease;
+    padding: 20px;
+}
+
+/* hover per muovere l'elemento */
+.flex-link > a:hover {
+    /* text-decoration: underline; */
+
+    transform: scale(1.2);
+    
+    border-bottom: 1px solid black;
+
+} 
+
+button > a {
+    text-decoration: none;
+    color: white;
+
+    transition: all 1s ease;
+    padding: 15px;
+}
+
+button {
+    transition: all 1s ease;
+}
+
+button:active {
+ 
+    transform: scale(0.9);
+
+}
+
+/* button > a:hover {
+    text-decoration: underline;
+
+} */
 /* stile hero */
 
 #hero {
@@ -58,7 +99,8 @@ button {
 }
 
 .hero-img {
-    width: 750px;
+    width: 700px;
+    margin-left: 10px;
 }
 
 h1 {
@@ -75,12 +117,17 @@ h1 {
 
 #botton-hero {
     margin-bottom: 25px;
+    padding: 10px;
 }
 
 .fa-arrow-down {
     margin-top: 30px;
     display: block;
     font-size: 35px;
+
+    
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -125,6 +172,13 @@ h1 {
 .content-table > button {
     margin-bottom: 15px;
     margin-left: 15px;
+
+    transition: all 1s ease;
+}
+
+.content-table > button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .content-table > h4 {
@@ -161,6 +215,14 @@ h1 {
 
 
 /* seconda section */
+
+#office > button {
+    transition: all 1s ease;
+}
+
+#office > button:hover {
+    transform: scale(1.1);
+}
 
 #office  {
     display: flex;
