@@ -274,7 +274,7 @@ h1 {
     /* gap: 15px; */
 }
 
-.business {
+.business-margin > img {
     width: 250px;
 }
 
@@ -388,6 +388,10 @@ h1 {
     padding: 30px;
 }
 
+.gratis > h2 {
+    color: #61082b;
+}
+
 /*  faq */
 
 .faq {
@@ -423,7 +427,7 @@ h1 {
 
 /* transition-faq */
 
-#faq-list {
+.transition-faq > p {
     display: none;
 
     margin-top: 40px;
@@ -434,7 +438,7 @@ h1 {
  height: 200px;  
 }
 
-.flex-faq:hover #faq-list {
+.flex-faq:hover p {
     display: inline-block;
 }
 
