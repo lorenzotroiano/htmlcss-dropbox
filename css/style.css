@@ -472,27 +472,9 @@ footer {
     padding-top: 20px;
 }
 
-/*  debug */
 
-/* header {
-    height: 100px;
-    ;
-} */
 
-/* #hero {
-    background-color: #b4d0e7;
-    height: 600px;
-} */
-
- /* main {
-    /* height: 800px;
-    background-color: red; } */
-
-/* section {
-    background-color: greenyellow;
-    height: 400px;
-
-}  */
+/* stile tabella */
 
 .table {
     /* background-color: violet; */
@@ -500,98 +482,3 @@ footer {
 }
 
 
-/* .debug {
-    /* height: 400px; */
-    /* background-color: brown; */
-
-    /* margin-top: 50px;
-} */
-
-
-/* .company {
-    display: flex;
-    justify-content: space-between; */
-     /* background-color: coral; */
-    /* height: 400px; }*/ 
-
-
-/* .container-company {
-    width: 250px;
-    height: 250px; 
-    /* background-color: darkgoldenrod; */
-    /* border: solid 3px black; */
-
-    /* text-align: center; } */ 
-
-
-/* .container-overflow > img {
-    width: 220px;
-    border-bottom: solid black 1px;
-
-   
-} */
-
-    /* .container-company > img {
-        position: relative;
-        top: 100px;
-    }
-
-    .container-overflow > p {
-        margin-top: 60px;
-        margin-bottom: 35px;
-    }
-
-.container-overflow {
-    width: 450px;
-    height: 500px;
-    /* border: solid 3px red; */
-    /* background-color: #f5f5f5;
-
-    padding: 30px; */ 
-
-    /* background-color: aquamarine; } */
-
-/* .position {
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-    background-color: #0093ce ;
-} */
-/* 
-.position2 {
-    position: absolute;
-    left: 250px;
-    bottom: 0px;
-    background-color: #ff1c1c;
-}
-
-.position3 {
-    position: absolute;
-    bottom: 0px;
-    right: 250px;
-    background-color: #0d2481;
-}
-
-.position4 {
-    position: absolute;
-    bottom: 0px;
-    right: 0;
-    background-color:#ffd830 ;
-} */
-
-/* .color {
-    background-color: #a2d39b ;
-    border: 10px solid #d1e9cd;
-}
-
-.color2 {
-    background-color: #61082b;
-}
-
-.color3 {
-    background-color:#d5001f ;
-}
-
-.color4 {
-    background-color: #b4d0e7 ;
-} */
